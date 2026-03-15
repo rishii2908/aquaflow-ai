@@ -1,0 +1,15 @@
+.badge {
+  display: inline-block;
+  padding: 2px 10px;
+  border-radius: 20px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.badge[data-color="red"]    { background: rgba(255,77,77,0.15);  color: var(--red);    border: 1px solid rgba(255,77,77,0.3); }
+.badge[data-color="orange"] { background: rgba(255,154,60,0.15); color: var(--orange); border: 1px solid rgba(255,154,60,0.3); }
+.badge[data-color="yellow"] { background: rgba(245,197,66,0.15); color: var(--yellow); border: 1px solid rgba(245,197,66,0.3); }
+.badge[data-color="green"]  { background: rgba(0,229,160,0.15);  color: var(--green);  border: 1px solid rgba(0,229,160,0.3); }
+.badge[data-color="accent"] { background: rgba(0,200,255,0.15);  color: var(--accent); border: 1px solid rgba(0,200,255,0.3); }
